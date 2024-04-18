@@ -1,6 +1,8 @@
 # R in the Data World
 
 
+
+
 ## Table of Contents
 
 * [Data Sourcing](#data-sourcing)
@@ -30,27 +32,24 @@ Please see [Kaggle Dataset](https://www.kaggle.com/c/kaggle-survey-2021/data)
 
 ### Data Presentation
 
-* The data are collected from 102 male and 100 female athletes.\
-They consist of 13 variables.\
-<br>The first two variables are categorical and especially are the gender of the 2 athlete and their sport.<br /> 
-The remaining 11 variables are various measurements made on the athletes. \
-The dataset is available in the file sport.txt.
+* There are 369 features.
+  Responses to multiple choice questions (only a single choice can be selected) were recorded in individual columns.
+  Responses to multiple selection questions (multiple choices can be selected) were split into multiple columns (with one column per answer choice).
+  
+* Data cleaning by Kaggle
+  Respondents that were flagged by the survey system as “Spam” or "Duplicate were excluded.
+  Also responses from respondents that spent less than 2 minutes completing the survey, as well as responses from respondents that selected fewer than
+  15 answer choices in total were dropped.
+  If a country or territory received less than 50 respondents, was grouped into a group named “Other” for the sake of anonymity.
 
-* **Dataset characteristics**
-<br>The Dataset has the following fields: <br /> 
-**Sex**: a factor with levels {male, female}\
-**Sport**: a factor with levels {BBall, Field, Gym, Netball, Row, Swim, T400m, TSprnt, WPolo }\
-**RCC**: red blood cell count, in 10^{10} per liter\
-**WCC**: white blood cell count, in 10^{10} per liter\
-**Hc**: hematocrit, percent\
-**Hg**: hemaglobin concentration, in g per decaliter\
-**Ferr**: plasma ferritins, ngr per decaliter\
-**BMI**: Body mass index, 102kg/cm2\
-**SSF**: sum of skin folds\
-**X.Bfat**: percent Body fat\
-**LBM**: lean body mass, kg\
-**Ht**: height, cm\
-**Wt**: weight, kg
+* Features were converted from categorical to float.
+
+* Goal of the project:
+  Make the profile of the people that use R on a regular basis.
+  Make a prediction model.
+  See potential and more space for R improvements.
+
+
 
 - - - -
 
