@@ -34,19 +34,26 @@ Please see [Kaggle Dataset](https://www.kaggle.com/c/kaggle-survey-2021/data)
 
 * There are 369 features.
   Responses to multiple choice questions (only a single choice can be selected) were recorded in individual columns.
+  
   Responses to multiple selection questions (multiple choices can be selected) were split into multiple columns (with one column per answer choice).
   
 * Data cleaning by Kaggle
+  
   Respondents that were flagged by the survey system as “Spam” or "Duplicate were excluded.
+  
   Also responses from respondents that spent less than 2 minutes completing the survey, as well as responses from respondents that selected fewer than
   15 answer choices in total were dropped.
+  
   If a country or territory received less than 50 respondents, was grouped into a group named “Other” for the sake of anonymity.
+  
 
 * Features were converted from categorical to float.
 
 * Goal of the project:
   Make the profile of the people that use R on a regular basis.
+  
   Make a prediction model.
+  
   See potential and more space for R improvements.
 
 
