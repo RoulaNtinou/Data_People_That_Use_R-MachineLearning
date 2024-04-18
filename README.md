@@ -49,7 +49,8 @@ Please see [Kaggle Dataset](https://www.kaggle.com/c/kaggle-survey-2021/data)
 
 * Features were converted from categorical to float.
 
-* Goal of the project:
+* **Goal of the project**:
+  
   Make the profile of the people that use R on a regular basis.
   
   Make a prediction model.
